@@ -59,6 +59,7 @@ internal fun WheelPicker(
                 border = selectorProperties.border().value
             ) {}
         }
+
         LazyColumn(
             modifier = Modifier
                 .height(size.height)
